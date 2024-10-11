@@ -71,10 +71,10 @@
      .fp-section:nth-child(3) .subtxt .color h3{margin: 50px 0 30px 0;font-size: 25px;}
      .fp-section:nth-child(3) .subtxt .color ul{display: flex;justify-content: center;gap: 30px;}
      .fp-section:nth-child(3) .subtxt .color ul li{border-radius: 50%;width: 30px;height: 30px;border: 1px solid #fff;border-radius: 50%;}
-     .fp-section:nth-child(3) .subtxt .one ul li:nth-child(1){background: #000;}
-     .fp-section:nth-child(3) .subtxt .one ul li:nth-child(2){background: #5C7F94;}
-     .fp-section:nth-child(3) .subtxt .one ul li:nth-child(3){background: #9493A8;}
-     .fp-section:nth-child(3) .subtxt .one ul li:nth-child(4){background: #AC051E;}
+     .fp-section:nth-child(3) .subtxt .one ul li:nth-child(1){background: #B89D61;}
+     .fp-section:nth-child(3) .subtxt .one ul li:nth-child(2){background: #EA4824;}
+     .fp-section:nth-child(3) .subtxt .one ul li:nth-child(3){background: #777779;}
+     .fp-section:nth-child(3) .subtxt .one ul li:nth-child(4){background: #20515D;}
 
      .fp-section:nth-child(3) .subtxt .two ul li:nth-child(1){background: #000;}
      .fp-section:nth-child(3) .subtxt .two ul li:nth-child(2){background: #60A360;}
