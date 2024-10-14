@@ -78,6 +78,10 @@
     <div class="wrap">
         
         <div class="swiper mySwiper">
+          <div class="subject">
+            <p>일상을 맛있게 행복하게</p>
+            <h1>Happiness in every bite</h1>
+          </div>
                 <div class="swiper-wrapper">
                   <div class="swiper-slide"><img src="images/first1.webp" alt=""></div>
                   <div class="swiper-slide"><img src="images/first2.webp" alt=""></div>
@@ -98,15 +102,26 @@
         <ul class="main">
           <li>
             <ul class="big">
-              <li><a href="#"><img src="images/brand1.webp" alt="brand1"></a></li>
+              <li>
+                <a href="#"><img src="images/brand1.webp" alt="brand1"></a>
+                <div class="mark">
+                  <p>먹고</p>
+                  <p>마시고</p>
+                  <p>즐기자</p>
+                </div>
+              </li>
             </ul>
             <ul class="small">
               <li>
                 <h1>BRAND</h1>
                 <p>SPC그룹의 다양한 브랜드를 만나보세요.</p>
                 <div class="smalltxt">
-                  <div class="swiper-button-next"></div>
-                  <div class="swiper-button-prev"></div>
+                  <div class="swiper-button-next1">
+                    <img src="images/left.png" alt="">
+                  </div>
+                  <div class="swiper-button-prev1">
+                    <img src="images/right.png" alt="">
+                  </div>
                 </div>
               </li>
               <li>
@@ -204,9 +219,13 @@
                <li>
                 <h1>SPC NOW</h1>
                 <p>SPC그룹의 다양한 소식을 만나보세요.</p>
-                <div class="smalltxt">
-                  <div class="swiper-button-next"></div>
-                  <div class="swiper-button-prev"></div>
+                <div class="smalltxt1">
+                  <div class="swiper-button-next2">
+                    <img src="images/left.png" alt="">
+                  </div>
+                  <div class="swiper-button-prev2">
+                    <img src="images/right.png" alt="">
+                  </div>
                 </div>
               </li>
               <li>
@@ -241,7 +260,14 @@
               </li>
             </ul>
             <ul class="big">
-              <li><a href="#"><img src="images/brand1.webp" alt="brand1"></a></li>
+              <li>
+                <a href="#"><img src="images/nowright.webp" alt="brand1"></a>
+                <div class="mark">
+                  <p>NEWS</p>
+                  <p>MAGAZINE</p>
+                  <p>SNS</p>
+                </div>
+              </li>
             </ul>
           </li>   
         </ul> 
@@ -358,9 +384,13 @@
           fade:true,
           centeredSlides: true,
           loop:true,
+          pagination: {
+          el: ".swiper-pagination",
+          type: "fraction",
+        },
           navigation: {
-            nextEl: ".swiper-button-next",
-            prevEl: ".swiper-button-prev",
+            nextEl: ".swiper-button-next1",
+            prevEl: ".swiper-button-prev1",
           },
         });
 
@@ -368,11 +398,17 @@
           fade:true,
           centeredSlides: true,
           loop:true,
+          pagination: {
+          el: ".swiper-pagination",
+          type: "fraction",
+        },
           navigation: {
-            nextEl: ".swiper-button-next",
-            prevEl: ".swiper-button-prev",
+            nextEl: ".swiper-button-next2",
+            prevEl: ".swiper-button-prev2",
           },
         });
+
+      
 
         $(function(){
           $(".menu > ul").mouseover(function(e){
