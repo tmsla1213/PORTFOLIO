@@ -65,6 +65,7 @@
     .profile .subp li .career{width: 100%;}
      .profile .subp li:nth-child(2)>ul .tool img{width: 100%;object-fit: cover;}
 
+     
      .fp-section:nth-child(3) .subtxt >h2{font-size: 90px;font-family: canela, sans-serif;margin-bottom: 20px;}
      .fp-section:nth-child(3) .subtxt >h3{margin: 30PX 0 10px;font-size: 25px;}
      .fp-section:nth-child(3) .subtxt>p{font-size: 20px;}
@@ -88,7 +89,7 @@
 
     .fp-section:nth-child(3) a{color: #fff;}
     .fp-section:nth-child(3) a>ul{width: 100%;display: flex;justify-content: center;gap: 50px;}
-    .fp-section:nth-child(3) a>ul li:first-child{width: 750px;}
+    .fp-section:nth-child(3) a>ul li:first-child{width: 750px;height: 450px;}
     .fp-section:nth-child(3) a>ul li:first-child img{width: 100%;height: 100%;object-fit: cover;}
     .fp-watermark{display: none;}
 
