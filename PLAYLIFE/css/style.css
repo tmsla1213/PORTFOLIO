@@ -12,7 +12,7 @@ a{text-decoration: none;color: #fff;}
 .logo ul li:nth-child(1){position: relative;width: 36px;height: 5px;background: #000;}
 .logo ul li:nth-child(2){position: relative;width: 28px;height: 5px;background: #000;margin: 5px 0 5px 8px;}
 .logo ul li:nth-child(3){position: relative;width: 36px;height: 5px;background: #000;}
-.menu{width: 0;min-height: 100vh;margin-left: auto;background: #fcffef;position:absolute;top: 0;right: 0;z-index: 998;overflow: hidden;}
+.menu{width: 0;min-height: 100vh;margin-left: auto;background: #fcffef;position:absolute;top: 0;right: 0;z-index: 99999;overflow: hidden;}
 .menu ul li a{color: #000;}
 .menu ul.submenu{margin-top: 100px;margin-left: 60px;}
 .menu>p{position: relative;top: 20px;right: -1050px;width: 36px;height: 29px;}
