@@ -89,7 +89,7 @@
 
     .fp-section:nth-child(3) a{color: #fff;}
     .fp-section:nth-child(3) a>ul{width: 100%;display: flex;justify-content: center;gap: 50px;}
-    .fp-section:nth-child(3) a>ul li:first-child{width: 750px;height: 450px;}
+    .fp-section:nth-child(3) a>ul li:first-child{width: 750px;}
     .fp-section:nth-child(3) a>ul li:first-child img{width: 100%;height: 100%;object-fit: cover;}
     .fp-watermark{display: none;}
 
