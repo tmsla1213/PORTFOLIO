@@ -87,6 +87,11 @@
      .fp-section:nth-child(3) .subtxt .three ul li:nth-child(3){background: #CBB8A7;}
      .fp-section:nth-child(3) .subtxt .three ul li:nth-child(4){background: #9C4D1D;}
 
+     .fp-section:nth-child(3) .subtxt .four ul li:nth-child(1){background: #FDCC04;}
+     .fp-section:nth-child(3) .subtxt .four ul li:nth-child(2){background: #17191C;}
+     .fp-section:nth-child(3) .subtxt .four ul li:nth-child(3){background: #FEFBEF;}
+     .fp-section:nth-child(3) .subtxt .four ul li:nth-child(4){background: #EED88F;}
+
     .fp-section:nth-child(3) a{color: #fff;}
     .fp-section:nth-child(3) a>ul{width: 100%;display: flex;justify-content: center;gap: 50px;}
     .fp-section:nth-child(3) a>ul li:first-child{width: 750px;}
