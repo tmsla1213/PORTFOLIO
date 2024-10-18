@@ -11,11 +11,78 @@
     <div class="wrap">
         
             <div class="menu">
-                <p><img src="images/M-logo.svg" alt=""></p>
-                <p></p>
-                <p></p>
+                <div class="outmenu">
+                    <p><img src="images/M-logo.svg" alt=""></p>
+                    <ul class="menubtn">
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                    <p>KB증권 대표 MTS</p>
+                </div>
+                
+                <div class="innermenuwrap">
+                    <div class="innermenu">
+                        <p><img src="images/Main-logo.svg" alt=""></p>
+                        <ul>
+                            <li>
+                                <p>시작</p>
+                                <p><strong>Welcome M-able</strong></p>
+                                <p><strong>첫 시작 혜택</strong></p>
+                            </li>
+                            <li>
+                                <p>투자</p>
+                                <p><strong>해외주식</strong></p>
+                                <p><strong>우리 아이 계좌개설</strong></p>
+                                <p><strong>공모주 청약</strong></p>
+                                <p><strong>소수점 정기구매</strong></p>
+                            </li>
+                            <li>
+                                <p>자산관리</p>
+                                <p><strong>연금/IRP</strong></p>
+                                <p><strong>중개형ISA</strong></p>
+                                <p><strong>CMA&발행어음</strong></p>
+                            </li>
+                        </ul>
+                        <div class="texture" >
+                            <p>해당 웹사이트에 사용된 모든 이미지는<br>
+                                생성형 AI를 통해 제작되었습니다.<br>
+                                항상 미래가치를 선도하는 KB증권이 되겠습니다.<br>
+                                Again BUY KOREA</p>
+                        </div>
+                    </div>
+                </div>
             </div>
-        <scetion>    
+            <!-- <div class="innermenu">
+                <p><img src="images/M-logo.svg" alt=""></p>
+                <ul>
+                    <li>
+                        <p>시작</p>
+                        <strong>Welcome M-able</strong>
+                        <strong>첫 시작 혜택</strong>
+                    </li>
+                    <li>
+                        <p>투자</p>
+                        <strong>해외주식</strong>
+                        <strong>우리 아이 계좌개설</strong>
+                        <strong>공모주 청약</strong>
+                        <strong>소수점 정기구매</strong>
+                    </li>
+                    <li>
+                        <p>자산관리</p>
+                        <strong>연금/IRP</strong>
+                        <strong>중개형ISA</strong>
+                        <strong>CMA&발행어음</strong>
+                    </li>
+                </ul>
+                <div class="texture" >
+                    <p>해당 웹사이트에 사용된 모든 이미지는<br>
+                        생성형 AI를 통해 제작되었습니다.<br>
+                        항상 미래가치를 선도하는 KB증권이 되겠습니다.<br>
+                        Again BUY KOREA</p>
+                </div>
+            </div> -->
+        <section>    
             <div class="main">
                 <div class="top">
                     <p><img src="images/Main-logo.svg" alt=""></p>
@@ -51,11 +118,11 @@
                     <div class="store">
                         <ul>
                             <li>
-                                <p><img src="/images/playstore.svg" alt=""></p>
+                                <p><img src="./images/playstore.svg" alt=""></p>
                                 <p>Play Store</p>
                             </li>
                             <li>
-                                <p><img src="/images/appstore.svg" alt=""></p>
+                                <p><img src="./images/appstore.svg" alt=""></p>
                                 <p>App Store</p>
                             </li>
                         </ul>
@@ -91,11 +158,11 @@
                     <div class="store">
                         <ul>
                             <li>
-                                <p><img src="/images/playstore.svg" alt=""></p>
+                                <p><img src="./images/playstore.svg" alt=""></p>
                                 <p>Play Store</p>
                             </li>
                             <li>
-                                <p><img src="/images/appstore.svg" alt=""></p>
+                                <p><img src="./images/appstore.svg" alt=""></p>
                                 <p>App Store</p>
                             </li>
                         </ul>
@@ -130,11 +197,11 @@
                     <div class="store">
                         <ul>
                             <li>
-                                <p><img src="/images/playstore.svg" alt=""></p>
+                                <p><img src="./images/playstore.svg" alt=""></p>
                                 <p>Play Store</p>
                             </li>
                             <li>
-                                <p><img src="/images/appstore.svg" alt=""></p>
+                                <p><img src="./images/appstore.svg" alt=""></p>
                                 <p>App Store</p>
                             </li>
                         </ul>
@@ -201,5 +268,37 @@
             
         </scetion>
     </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script>
+         $(function(){
+        let txt = true; 
+      $(".menubtn").click(function(){
+        if(txt){
+          $(".innermenuwrap").animate({width:"520px"},500,
+          "linear");  
+            $(".innermenu").css({opacity:1});
+        }else{
+            $(".innermenuwrap").animate({width:"0"},500,"linear");   
+            $(".innermenu").css({opacity:0});
+        }
+        txt = !txt;
+         });
+        //  $(".outmenu>ul").click(function(){
+        //     if(txt){
+        //   $(".innermenuwrap").animate({width:"520px"},500,"linear");
+        //   $(".innermenu").css({opacity:1});
+        // }else{
+        //     $(".innermenuwrap").animate({width:"0"},500,"linear"); 
+        //     $(".innermenu").css({opacity:0});  
+        // }
+        // txt = !txt;
+        //  })
+            
+    });
+    </script>
+
+
 </body>
 </html>
