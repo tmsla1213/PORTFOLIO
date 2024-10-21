@@ -29,7 +29,7 @@ body{position: relative;overflow-x: hidden;}
 .outmenu ul li{width: 1px;height: 32px;background: #000;}
 .outmenu p:nth-child(3){width: 120px;height: 120px;font-size: 12px; transform: rotate(-90deg);line-height: 120px;font-weight: 700;}
 .innermenuwrap{width:0;height: 1069.7px;background-color: #fdcd04;position: absolute;top: 0;left: 120px;z-index: 999;}
-.innermenu{width: 90%;margin: 0 auto;opacity: 0;}
+.innermenu{width: 90%;margin: 0 auto;opacity: 0;z-index: 99999;}
 .innermenu>p{padding-top: 50px;}
 .innermenu li{margin-top: 50px;}
 .innermenu li p:first-child{font-size: 16px;color: #000;opacity: 0.4;}
