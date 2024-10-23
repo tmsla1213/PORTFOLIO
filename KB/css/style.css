@@ -3,7 +3,7 @@
 *{margin: 0;padding: 0;}
 a{text-decoration: none;}
 ul{list-style: none;}
-body{position: relative;overflow-x: hidden;}
+body{position: relative;overflow-x: hidden;font-family: Arial, 돋움, Dotum, sans-serif;}
 
 .menu{z-index: 999;position: fixed;
     width: 120px;

@@ -12,7 +12,7 @@ a {
 }
 html,
 body {
-  overflow-x: hidden;
+  overflow-x: hidden;position: relative;font-family: Arial, 돋움, Dotum, sans-serif;
 }
 .menu {
   width: 100%;
